@@ -1,12 +1,3 @@
-Komponentler;
-
->> 1 x HC-SR04 Ultrasonic mesafe sensörü
-
-HC-SR04 ile Mesafe Ölçme Uygulaması HC-SR04 Ultrasonik Mesafe Sensörü ile Mesafe Ölçümü
-
-Sensörün TRIG ve ECHO pin tanımlamalarına dikkat ediyoruz. Serial Monitor ekranında mesafe değerini gözlemleyebiliyoruz. İstenildiği takdirde burada ölçülen değer LCD vb. ekranlara da aktarılabilir.
-// TRIG pini tanımlıyoruz.
-
 int trigPin=12; // ECHO pini tanımlıyoruz. int echoPin-11;
 
 void setup()
